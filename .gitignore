@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Credenciais
+credentials.json
+
+# Configurações privadas
+src/config_local.py
+.env
+
+# Arquivos gerados
+output/*
+!output/.gitkeep
+
+# Diagnóstico
+importtime.txt
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Testes e arquivos temporários
+scratch/
+
+# Arquivos auxiliares locais
+src/api_doweb.py
+src/debug_conteudo.py
+src/excel_export.py
+src/open_materia.py
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
